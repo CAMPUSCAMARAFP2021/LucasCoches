@@ -1,1 +1,2 @@
 # LucasCoches
+Estructura Inicial:
