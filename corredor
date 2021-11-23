@@ -1,0 +1,3 @@
+class corredor{
+    SneakerBrand, Name, maxspeed
+}
