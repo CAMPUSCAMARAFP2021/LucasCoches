@@ -1,8 +1,11 @@
+
 class Vehiculo{
     velocidad=0
-    constructor(matricula, conductor){
-        this.matricula = matricula;
-        this.conductor = conductor;
+    constructor(enrollment, driver, brand,maxspeed){
+        this.enrollment = enrollment;
+        this.driver = driver;
+        this.brand = brand;
+        this.maxspeed = maxspeed;
     }
     run(){
         this.velocidad+=10;
@@ -12,17 +15,4 @@ class Vehiculo{
         this.velocidad =0;
     }
 }
-class car extends Vehiculo{
 
-    constructor(brand, maxspeed){
-        this.brand = brand;
-        this.maxspeed = maxspeed;
-
-    }
-}
-class Corredor extends Vehiculo{
-
-    constructor(SneakerBrand, Name, maxspeed){
-
-    }
-}
