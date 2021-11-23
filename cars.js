@@ -1,4 +1,4 @@
-class car {
+class car extends Vehiculo {
     
     speed = 0;
     acceleration = 10;
