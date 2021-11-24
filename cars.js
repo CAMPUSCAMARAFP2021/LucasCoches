@@ -2,7 +2,8 @@ class car extends Vehiculo {
     
     speed = 0;
     acceleration = 10;
-    maxSpeed = 100;
+    
+    
      
     accelerate() {
         this.speed + this.acceleration >= this.maxSpeed ? 
@@ -14,7 +15,7 @@ class car extends Vehiculo {
         this.speed - this.acceleration <= 0?
         this.speed = 0:
         this.speed -= this.acceleration
-        
-
-    }
+        }
+    
+    
 }
